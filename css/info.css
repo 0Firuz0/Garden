@@ -1,0 +1,39 @@
+.info {
+    margin-top: 42px;
+}
+
+.container {}
+
+.info__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info__block-img {}
+
+.info__block-text {
+    max-width: 481px;
+}
+
+.info__title {
+    font-family: var(--fontPD);
+    font-weight: 700;
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 19px;
+}
+
+.info__text {
+    font-family: var(--fontMulish);
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 176%;
+    color: #7d7987;
+    margin-bottom: 37px;
+}
+
+.info__btn {
+    border-radius: 8px;
+    padding: 8px 37px 8px 39px;
+}

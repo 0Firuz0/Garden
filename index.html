@@ -1,150 +1,123 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlexBox</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-</head>
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet">
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+                rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Визитка</title>
+</head>
 <body>
+
     <header class="header">
         <div class="container">
-            <div class="logo">
-                <img src="nav/Subtract.png" alt="" class="logo__img">
-                <div class="logo__title-block">
-                    <div class="logo__title">Mist Gardens</div>
-                    <div class="logo__text">Museum & Botanical Garden</div>
-                </div>
-            </div>
             <nav class="nav">
-                <ul сlass="nav__list" style="display: flex; column-gap: 40px; align-items: center">
-                    <li class="nav__item"><a href="#">Visit</a></li>
-                    <li class="nav__item"><a href="#">Exhibitions</a></li>
-                    <li class="nav__item"><a href="#">Programs & Events</a></li>
-                    <li class="nav__item"><a href="#">Store</a></li>
-                    <li class="nav__item nav__item_border"><a href="#">Membership</a></li>
-                </ul>
-                <ul class="burger">
-                    <li class="burger__line"></li>
-                    <li class="burger__line"></li>
-                    <li class="burger__line"></li>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="">Home</a></li>
+                    <li class="nav__item"><a href="">Destinations</a></li>
+                    <li class="nav__item"><a href="">About</a></li>
+                    <li class="nav__item"><a href="">Partner</a></li>
+                    <li class="nav__item"><button class="nav__btn-1">Login</button></li>
+                    <li class="nav__item"><button class="nav__btn-2 btn">Register</button></li>
                 </ul>
             </nav>
+
         </div>
     </header>
 
-    <main>
-        <section class="grettings">
-            <div class="container">
+    <section class="grettings">
+        <div class="container">
+            <div class="grettings__desc">
                 <div class="grettings__content">
-                    <!-- блок описание -->
-                    <div class="grettings__desc">
-                        <div class="grettings__title">A beatiful adventure awaits</div>
-                        <div class="grettings__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
-                            facilisis nunc</div>
-                        <div class="grettings__btn-block">
-                            <button class="btn grettings__tickets">Buy Tickets</button>
-                            <button class="btn grettings__extra-info">Learn More</button>
-                        </div>
-                    </div>
-                    <!-- блок с картинкой -->
-                    <div class="grettings__block-img">
-                        <img src="img/grettings/garden.png" alt="Картинка">
-                    </div>
+                    <div class="grettings__title">Explore and Travel</div>
+                    <div class="grettings__text">Holiday finder</div>
+                    <div class="line"></div>
+                    <div><button class="grettings__btn btn">Explore</button></div>
+                </div>
+                <div class="grettings__block-img">
+                    <img src="img/gretings/chel.png" alt="картинка">
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="desc">
-            <div class="container">
-                <div class="desc__content">
-                    <div class="desc__block">
-                        <img src="img/desc/1.png" alt="1 картинка">
-                        <div class="desc__info-block">
-                            <div class="desc__title">Discover yourself with nature</div>
-                            <div class="desc__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
-                                facilisis nuncLorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Tincidunt facilisis nunc</div>
-                            <button class="btn desc__btn">learn more</button>
-                        </div>
-                    </div>
-                    <div class="desc__block">
-                        <img src="img/desc/2.png" alt="">
-                    </div>
+    <section class="info">
+        <div class="container">
+            <div class="info__content">
+                <div class="info__block-img">
+                    <img src="img/info/polet.png" alt="picture">
+                </div>
+                <div class="info__block-text">
+                    <div class="info__title">A new way to explore the world </div>
+                    <div class="info__text">For decades travellers have reached for Lonely Planet books when looking to
+                        plan and execute their perfect
+                        trip, but now, they can also let Lonely Planet Experiences lead the way</div>
+                    <div><button class="info__btn btn">Learn more</button></div>
                 </div>
             </div>
-            <img src="img/desc/list.svg" alt="картинка лист" class="desc__flower">
-        </section>
+        </div>
+    </section>
 
-        <section class="news">
-            <div class="container">
-                <div class="news__content">
-                    <div class="news__info-title">
-                        <div class="news__main-title">News & Updates</div>
-                        <a href="#" class="news__link">View all posts</a>
+    <section class="advert">
+        <div class="container">
+            <div class="advert__content">
+                <div class="advert__main-title">
+                    <div class="advert__title">
+                        Featured destinations
                     </div>
-                    <div class="news__main-content">
-                        <div class="news__main-info">
-                            <img src="img/news/pic1.jpg" alt="1">
-                            <div class="news__title">Plants Around Us</div>
-                            <div class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
-                                facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor
-                                sit amet, consectetur adipiscing elit...</div>
-                            <div class="news__date">December 23, 2021</div>
-                        </div>
-
-                        <ul class="news__list">
-                            <li class="news__card">
-                                <img src="img/news/pic2.png" alt="2">
-                                <div class="news__info">
-                                    <div class="news__title">Lush Gardens</div>
-                                    <div class="news__text">Lorem ipsum dolor sit amet, consectetur donec adipiscing
-                                        elit. Tincidunt facilisis nunc lorem</div>
-                                    <div class="news__date">December 16, 2021</div>
-                                </div>
-                            </li>
-
-
-                            <li class="news__card">
-                                <img src="img/news/pic3.png" alt="2">
-                                <div class="news__info">
-                                    <div class="news__title">Exotic Nature</div>
-                                    <div class="news__text">Lorem ipsum dolor sit amet, consectetur donec adipiscing elit. Tincidunt facilisis nunc lorem</div>
-                                    <div class="news__date">November 11, 2021</div>
-                                </div>
-                            </li>
-
-                            <li class="news__card">
-                                <img src="img/news/pic4.png" alt="2">
-                                <div class="news__info">
-                                    <div class="news__title">It Starts with Soil</div>
-                                    <div class="news__text">Lorem ipsum dolor sit amet, consectetur donec adipiscing elit. Tincidunt facilisis nunc lorem</div>
-                                    <div class="news__date">November 3, 2021</div>
-                                </div>
-                            </li>
-
-
-                        </ul>
-
+                    <div class="advert__nav-text">
+                        View all
                     </div>
                 </div>
+                <ul class="advert__list">
+                    <li class="advert__item"><img src="img/advert/more.png" alt="1"> </li>
+                    <li class="advert__item"><img src="img/advert/skala.png" alt="1"> </li>
+                    <li class="advert__item"><img src="img/advert/dom.png" alt="1"> </li>
+                    <li class="advert__item"><img src="img/advert/les.png" alt="1"> </li>
+                </ul>
             </div>
-        </section>
+        </div>
+    </section>
 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__block-text">
+                    <img src="img/footer/krug.png" alt="2">
+                    <div class="footer__text">Plan and book your perfect trip with
+                        expert advice, travel tips destination
+                        information from us</div>
+                    <div class="footer__text-info">©2020 Thousand Sunny. All rights reserved</div>
+                </div>
+                <ul class="footer__list">
+                    <li class="footer__item">Destinations</li>
+                    <li class="footer__item">Africa</li>
+                    <li class="footer__item">Antarctica</li>
+                    <li class="footer__item">Asia</li>
+                    <li class="footer__item">Europe</li>
+                    <li class="footer__item">America</li>
+                </ul>
+            </div>
+            <div class="footer__line"></div>
 
-    </main>
+            <div class="footer__img"><img src="img/pic8.png" alt=""></div>
+
+        </div>
+    </footer>
 
 
 

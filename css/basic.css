@@ -1,38 +1,37 @@
-:root {
-    --font-roboto: "Roboto", serif;
-    --font-libre: "Libre Baskerville",
-        serif;
+:root{
+    --fontInter:"Inter", sans-serif;
+    --fontMulish:"Mulish", sans-serif;
+    --fontPD:"Playfair Display"
 }
 
-* {
+*{
     box-sizing: border-box;
 }
 
-body,
-html {
+body, html{
     height: 100%;
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
 
-a {
-    text-decoration: none;
-}
-
-li {
+li{
     list-style: none;
 }
 
-ul,
-ol {
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul,ol{
     margin: 0;
     padding: 0;
 }
 
-.container {
-    max-width: 1350px;
-    margin: 0 auto;
-}
-
-img {
-    max-width: 100%;
-}

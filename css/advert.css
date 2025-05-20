@@ -1,0 +1,43 @@
+.advert {
+    margin-top: 75px;
+}
+
+.container {}
+
+.advert__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 124px;
+    
+}
+
+.advert__main-title {
+    display: flex;
+    align-items: center;
+}
+
+.advert__title {
+    font-family: var(--fontPD);
+        font-weight: 700;
+        font-size: 36px;
+        color: #000;
+        display: inline-block;
+        margin-right: 680px;
+}
+
+.advert__nav-text {
+    font-family: var(--fontInter);
+    font-weight: 600;
+    font-size: 17px;
+    color: #fb8f1d;
+    display: inline-block;
+}
+
+.advert__list {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+    
+}
+
+.advert__item {}
