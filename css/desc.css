@@ -25,7 +25,7 @@
 .desc__title {
     font-family: var(--font-libre);
     font-weight: 400;
-    font-size:clamp(2.125rem, 1.972rem + 0.701vi, 2.813rem);
+    font-size: clamp(2.125rem, 1.972rem + 0.701vi, 2.813rem);
     line-height: 110%;
     text-transform: capitalize;
     color: white;
@@ -34,7 +34,7 @@
 .desc__text {
     font-family: var(--font-roboto);
     font-weight: 400;
-    font-size: clamp(1rem, 0.944rem + 0.255vi, 1.25rem);
+    font-size: 20px;
     line-height: 150%;
     color: white;
     margin-top: 32px;
@@ -72,9 +72,4 @@
     .desc{
         padding: 56px 16px 63px 16px;
     }
-
-    .desc__title{
-        
-    }
-
 }
